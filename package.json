@@ -4,7 +4,8 @@
   "description": "Browser based game",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/kinyapina/npm-package/issues"
   },
-  "homepage": "https://github.com/kinyapina/npm-package#readme"
+  "homepage": "https://github.com/kinyapina/npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
 }
