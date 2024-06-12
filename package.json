@@ -1,0 +1,22 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinyapina/npm-package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Katya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinyapina/npm-package/issues"
+  },
+  "homepage": "https://github.com/kinyapina/npm-package#readme"
+}
